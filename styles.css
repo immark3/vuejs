@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  -webkit-user-select: none;
 }
 
 #app {
@@ -21,6 +22,7 @@ label, input {
   margin-bottom: 0.5rem;
   display: block;
   width: 100%;
+  
 }
 
 label {
@@ -37,4 +39,5 @@ li {
   margin: 1rem 0;
   padding: 1rem;
   border: 1px solid #ccc;
+  -webkit-user-select: none;
 }
